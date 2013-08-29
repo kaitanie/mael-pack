@@ -1,0 +1,6 @@
+[submodule "dev/scala-pack/scala-mode2"]
+	path = dev/scala-pack/scala-mode2
+	url = https://github.com/hvesalai/scala-mode2.git
+[submodule "dev/scala-pack/ensime"]
+	path = dev/scala-pack/ensime
+	url = https://github.com/aemoncannon/ensime.git
