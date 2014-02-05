@@ -4,3 +4,6 @@
 [submodule "dev/scala-pack/ensime"]
 	path = dev/scala-pack/ensime
 	url = https://github.com/aemoncannon/ensime.git
+[submodule "dev/clojure-pack/midje-mode"]
+	path = dev/clojure-pack/midje-mode
+	url = https://github.com/dnaumov/midje-mode.git
