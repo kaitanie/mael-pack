@@ -10,6 +10,8 @@
 (add-to-list 'load-path "~/.live-packs/mael-pack/dev/scala-pack/scala-mode2/")
 (require 'scala-mode2)
 
+(require 'haskell-mode)
+(require 'haskell-session)
 
 ;; ENSIME
 (let* ((ensime-path "~/.live-packs/mael-pack/dev/scala-pack/ensime/")
