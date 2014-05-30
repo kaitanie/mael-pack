@@ -6,6 +6,14 @@
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
+;; Merlin mode for OCaml
+(add-to-list 'load-path "~/.live-packs/mael-pack/dev/ocaml-pack/builtin-merlin-mode/")
+;;(require 'merlin)
+(setq merlin-command "~/.opam/4.01.0/bin/ocamlmerlin")  ; needed only if ocamlmerlin not already in your PATH
+(autoload 'merlin-mode "merlin" "Merlin mode" t)
+(add-hook 'tuareg-mode-hook 'merlin-mode)
+(add-hook 'caml-mode-hook 'merlin-mode)
+
 ;; Scala-mode2
 (add-to-list 'load-path "~/.live-packs/mael-pack/dev/scala-pack/scala-mode2/")
 (require 'scala-mode2)
