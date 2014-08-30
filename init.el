@@ -22,10 +22,10 @@
 (require 'haskell-session)
 
 ;; ENSIME
-(let* ((ensime-path "~/.live-packs/mael-pack/dev/scala-pack/ensime/")
-       (ensime-elisp (concat ensime-path "/dist/elisp/"))
-       (ensime-bin (concat ensime-path "/dist/bin/")))
-  (progn
-    (setenv "PATH" (concat ensime-bin ":" (getenv "PATH")))
-    (add-to-list 'load-path ensime-elisp)
-    (require 'ensime)))
+;;(let* ((ensime-path "~/.live-packs/mael-pack/dev/scala-pack/ensime/")
+;;       (ensime-elisp (concat ensime-path "/dist/elisp/"))
+;;       (ensime-bin (concat ensime-path "/dist/bin/")))
+;;(progn
+;;  (setenv "PATH" (concat ensime-bin ":" (getenv "PATH")))
+;;  (add-to-list 'load-path ensime-elisp)
+;;  (require 'ensime)))
